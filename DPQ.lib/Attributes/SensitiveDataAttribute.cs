@@ -2,6 +2,9 @@
 
 namespace DPQ.lib.Attributes
 {
+    /// <summary>
+    /// Label sensible properties
+    /// </summary>
     [AttributeUsage(AttributeTargets.Property)]
     public class SensitiveDataAttribute : Attribute
     {

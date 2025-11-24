@@ -1,5 +1,8 @@
 ﻿namespace DPQ.lib.Models
 {
+    /// <summary>
+    /// Data Product Metadata
+    /// </summary>
     public class DataProductMetadata
     {
         public string Owner { get; set; }

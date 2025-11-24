@@ -5,7 +5,9 @@ using System.Text.RegularExpressions;
 
 namespace DPQ.lib.Strategies
 {
-
+    /// <summary>
+    /// CPF masking
+    /// </summary>
     public class CPFMaskingStrategy : IMaskingStrategy
     {
         public bool CanHandle(string strategyName) => strategyName == "CPF";

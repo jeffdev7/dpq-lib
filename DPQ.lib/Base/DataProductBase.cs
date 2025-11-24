@@ -5,6 +5,9 @@ using DPQ.lib.Services;
 
 namespace DPQ.lib.Base
 {
+    /// <summary>
+    /// Base class for implementation of Data Products
+    /// </summary>
     public abstract class DataProductBase : IDataProduct
     {
         protected readonly MaskingService _maskingService;

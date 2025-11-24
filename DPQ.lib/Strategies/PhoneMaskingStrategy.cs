@@ -5,6 +5,9 @@ using System.Text.RegularExpressions;
 
 namespace DPQ.lib.Strategies
 {
+    /// <summary>
+    /// Phone masking
+    /// </summary>
     public class PhoneMaskingStrategy : IMaskingStrategy
     {
         public bool CanHandle(string strategyName) => strategyName == "Phone";

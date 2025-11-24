@@ -5,6 +5,9 @@ using System.Text.RegularExpressions;
 
 namespace DPQ.lib.Strategies
 {
+    /// <summary>
+    /// Credit card masking
+    /// </summary>
     public class CreditCardMaskingStrategy : IMaskingStrategy
     {
         public bool CanHandle(string strategyName) => strategyName == "CreditCard";

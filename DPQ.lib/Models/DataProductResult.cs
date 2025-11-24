@@ -1,5 +1,8 @@
 ﻿namespace DPQ.lib.Models
 {
+    /// <summary>
+    /// Data Product Result
+    /// </summary>
     public class DataProductResult
     {
         public bool Success { get; set; }

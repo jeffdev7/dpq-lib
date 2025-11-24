@@ -2,6 +2,9 @@
 
 namespace DPQ.lib.Models
 {
+    /// <summary>
+    /// Data Product Query
+    /// </summary>
     public class DataProductQuery
     {
         public MaskingLevel MaskingLevel { get; set; } = MaskingLevel.None;

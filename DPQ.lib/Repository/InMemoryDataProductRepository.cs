@@ -2,6 +2,9 @@
 
 namespace DPQ.lib.Repository
 {
+    /// <summary>
+    /// In memory repository Data Products
+    /// </summary>
     public class InMemoryDataProductRepository : IDataProductRepository
     {
         private readonly Dictionary<string, IDataProduct> _products = new();

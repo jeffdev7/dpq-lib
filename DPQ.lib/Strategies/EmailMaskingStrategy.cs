@@ -4,6 +4,9 @@ using DPQ.lib.Services;
 
 namespace DPQ.lib.Strategies
 {
+    /// <summary>
+    /// Email masking
+    /// </summary>
     public class EmailMaskingStrategy : IMaskingStrategy
     {
         public bool CanHandle(string strategyName) => strategyName == "Email";

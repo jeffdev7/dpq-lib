@@ -4,6 +4,9 @@ using DPQ.lib.Repository;
 
 namespace DPQ.lib.Orchestration
 {
+    /// <summary>
+    /// Orchestrator of Data Mesh
+    /// </summary>
     public class DataMeshOrchestrator
     {
         private readonly IDataProductRepository _repository;

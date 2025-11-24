@@ -3,6 +3,9 @@ using System.Text;
 
 namespace DPQ.lib.Services
 {
+    /// <summary>
+    /// Helper for cryptography
+    /// </summary>
     public static class EncryptionService
     {
         private static readonly string DefaultKey = "DPQ-SecretKey-2025-ChangeInProd!";

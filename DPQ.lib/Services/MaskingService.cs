@@ -4,6 +4,9 @@ using DPQ.lib.Strategies;
 
 namespace DPQ.lib.Services
 {
+    /// <summary>
+    /// Service for masking data
+    /// </summary>
     public class MaskingService
     {
         private readonly List<IMaskingStrategy> _strategies = new();

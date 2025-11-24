@@ -2,6 +2,9 @@
 
 namespace DPQ.lib.Interface
 {
+    /// <summary>
+    /// Data Product interface
+    /// </summary>
     public interface IDataProduct
     {
         string Domain { get; }
