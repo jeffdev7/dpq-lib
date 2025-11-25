@@ -62,3 +62,20 @@ mask.Mask("1234 5678 9012 3456", "CreditCard", MaskingLevel.Partial);
 ### 🛠️ Requirements
 
 .NET 8.0+ No external dependencies
+
+### Version
+`1.1.2`
+<br/>
+<ul>
+  <li>
+    1: feature/functionality
+  </li>
+  <li>
+    1: code refact
+  </li>
+  <li>
+2: documentation
+  </li>
+</ul>
+
+
