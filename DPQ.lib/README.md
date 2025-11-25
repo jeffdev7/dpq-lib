@@ -1,4 +1,4 @@
-# dpq-lib
+# DPQ 
 
 📋 Features
 
@@ -12,6 +12,17 @@
 
 ✅ GDPR/LGPD compliant: Built-in data protection
 
+
+### 🚀 Quick start
+<pre><code>
+using DPQ.lib;
+
+var mask = new MaskingService();
+string cpf = "123.456.789-01";
+var masked = mask.Mask(cpf, "CPF", MaskingLevel.Partial);
+
+Console.WriteLine(masked); // Output: ***.***.***.01
+</code></pre>
 
 | Level | Description | Example |
 |-------|-------------|---------|

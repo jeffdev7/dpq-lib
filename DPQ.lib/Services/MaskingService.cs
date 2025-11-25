@@ -10,7 +10,9 @@ namespace DPQ.lib.Services
     public class MaskingService
     {
         private readonly List<IMaskingStrategy> _strategies = new();
-
+        /// <summary>
+        /// <para>MaskingService would be the main and the most straightforward function for masking</para>
+        /// </summary>
         public MaskingService()
         {
             RegisterDefaultStrategies();
