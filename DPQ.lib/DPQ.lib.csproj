@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
 	  <PackageId>DPQ.lib</PackageId>
-	  <Version>1.0.4</Version>
+	  <Version>1.1.0</Version>
 	  <Authors>Jeff</Authors>
-	  <Description>Library for masking Personally Identifiable Information (PII) using DPQ - Data Mesh</Description>
+	  <Description>A simple modern approach for masking Personally Identifiable Information (PII) following DPQ</Description>
 	  <PackageTags>datamesh;masking;cpf;lgpd;gdpr;privacy</PackageTags>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
