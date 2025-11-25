@@ -13,15 +13,14 @@
 ✅ GDPR/LGPD compliant: Built-in data protection
 
 
-### 🚀 Quick start
-`using DPQ.lib;` <br/>
+🚀 Quick start
+using DPQ.Core;
 
-`var mask = new MaskingService();`<br/>
-`string cpf = "123.456.789-01";`<br/>
-`var masked = mask.Mask(cpf, "CPF", MaskingLevel.Partial);`<br/>
+var mask = new MaskingService();
+string cpf = "123.456.789-01";
+var masked = mask.Mask(cpf, "CPF", MaskingLevel.Partial);
 
-`Console.WriteLine(masked);` <br/>
-`// Output: ***.***.***.01`
+Console.WriteLine(masked); // Output: ***.***.***.01
 
 
 | Level | Description | Example |

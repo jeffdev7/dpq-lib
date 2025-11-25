@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
 	  <PackageId>DPQ.lib</PackageId>
-	  <Version>1.1.1</Version>
+	  <Version>1.1.2</Version>
 	  <Authors>Jeff</Authors>
 	  <Description>A simple modern approach for masking Personally Identifiable Information (PII) following DPQ</Description>
 	  <PackageTags>datamesh;masking;cpf;lgpd;gdpr;privacy</PackageTags>
