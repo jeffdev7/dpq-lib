@@ -14,13 +14,14 @@
 
 
 ### 🚀 Quick start
-`using DPQ.lib;
+`using DPQ.lib;` <br/>
 
-var mask = new MaskingService();
-string cpf = "123.456.789-01";
-var masked = mask.Mask(cpf, "CPF", MaskingLevel.Partial);
+`var mask = new MaskingService();`<br/>
+`string cpf = "123.456.789-01";`<br/>
+`var masked = mask.Mask(cpf, "CPF", MaskingLevel.Partial);`<br/>
 
-Console.WriteLine(masked); // Output: ***.***.***.01`
+`Console.WriteLine(masked);` <br/>
+`// Output: ***.***.***.01`
 
 
 | Level | Description | Example |
