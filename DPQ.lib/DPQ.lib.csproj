@@ -3,18 +3,20 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
 	  <PackageId>DPQ.lib</PackageId>
-	  <Version>1.0.1</Version>
+	  <Version>1.0.2</Version>
 	  <Authors>Jeff</Authors>
 	  <Description>Library for masking PII using DPQ - Data Mesh</Description>
 	  <PackageTags>datamesh;masking;cpf;lgpd;gdpr;privacy</PackageTags>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="dpq.cs~RF3dde0b00.TMP" />
+	  <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
