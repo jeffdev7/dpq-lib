@@ -5,16 +5,16 @@
     /// </summary>
     public enum MaskingLevel
     {
-        /// <summary>No mask</summary>
+        /// <summary><para>No mask</para></summary>
         None,
 
-        /// <summary>Partial mask mask</summary>
+        /// <summary><para>Partial mask mask</para></summary>
         Partial,
 
-        /// <summary>Full mask</summary>
+        /// <summary><para>Full mask</para></summary>
         Full,
 
-        /// <summary>Encrypted</summary>
+        /// <summary><para>Encrypted</para></summary>
         Encrypted
     }
 }

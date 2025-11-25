@@ -3,7 +3,7 @@
 namespace DPQ.lib.Interface
 {
     /// <summary>
-    /// MakingStrategy
+    /// MaskingStrategy
     /// </summary>
     public interface IMaskingStrategy
     {
