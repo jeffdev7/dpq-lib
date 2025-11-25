@@ -30,8 +30,11 @@ namespace DPQ.lib.Services
         }
         /// <summary>
         /// Mask function
+        /// 
         /// Strategies: CPF, CreditCard, Phone, Email
+        /// 
         /// Example: Mask(yourField, "CPF", MaskingLevel.Full);
+        /// 
         /// </summary>
         public string Mask(string value, string strategyName, MaskingLevel level)
         {
