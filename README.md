@@ -9,7 +9,7 @@ dotnet add package DPQ.lib
 
 ### 🚀 Quick start
 <pre><code>
-using DPQ.Core;
+using DPQ.lib;
 
 var mask = new MaskingService();
 string cpf = "123.456.789-01";
